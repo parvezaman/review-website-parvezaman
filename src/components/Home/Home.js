@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Carousel } from 'react-bootstrap';
-import banner from "../../images/banner.jpg";
+import { Carousel } from 'react-bootstrap';
+// import banner from "../../images/banner.jpg";
 import Cards from '../Card/Cards';
 import "./Home.css";
 
@@ -11,7 +11,7 @@ const Home = () => {
         fetch('services-data.json')
         .then(res => res.json())
         .then(data => setItems(data))
-    },[])
+    },[]);
 
     const fewItems= items.slice(0,4);
     // console.log(fewItems);
