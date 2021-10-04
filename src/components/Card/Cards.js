@@ -18,7 +18,7 @@ const Cards = (props) => {
                  {descriptioin}
                 </small>
                 {/* </Card.Text> */}
-                <Button variant="primary">Go somewhere</Button>
+                <Button variant="primary">See Details</Button>
             </Card.Body>
             </Card>
         </div>

@@ -1,0 +1,5 @@
+.show-alumni{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 2px solid gray;
+}
