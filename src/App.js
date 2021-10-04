@@ -17,6 +17,7 @@ function App() {
   return (
     <div>
       <Router>
+        {/* this should be out of switch  */}
        <Header></Header>
         <Switch>
           <Route path="/home">

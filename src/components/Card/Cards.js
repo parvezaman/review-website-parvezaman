@@ -3,7 +3,6 @@ import { Button, Card } from 'react-bootstrap';
 
 
 const Cards = (props) => {
-    console.log(props);
 
     const {name, image, price, rating, descriptioin} = props.item;
     return (
@@ -17,7 +16,6 @@ const Cards = (props) => {
                 <small>
                  {descriptioin}
                 </small>
-                {/* </Card.Text> */}
                 <Button variant="primary">See Details</Button>
             </Card.Body>
             </Card>
