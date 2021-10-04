@@ -16,6 +16,7 @@ const Cards = (props) => {
                 <small>
                  {descriptioin}
                 </small>
+                {/* this button shouldnt work */}
                 <Button variant="primary">See Details</Button>
             </Card.Body>
             </Card>
